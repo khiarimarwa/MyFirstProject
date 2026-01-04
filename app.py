@@ -5,6 +5,6 @@ st.write ("Bienvenue sur mon site web")
 
 data = {"Nom" : ["Alice", "Bob", "Marwa"],
         "Age" : [10,25,26] }
-        df = tab.DataFrame(data)
+df = tab.DataFrame(data)
 
 st.dataframe(df)
